@@ -1,0 +1,8 @@
+// Debug build configuration
+// Copy secrets.xcconfig (gitignored) and set your keys there.
+// This file is committed; secrets.xcconfig is not.
+
+#include? "secrets.xcconfig"
+
+TFL_API_KEY = $(TFL_API_KEY)
+MAPS_API_KEY = $(MAPS_API_KEY)

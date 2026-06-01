@@ -1,0 +1,7 @@
+// Release build configuration
+// Set TFL_API_KEY and MAPS_API_KEY via secrets.xcconfig or CI environment.
+
+#include? "secrets.xcconfig"
+
+TFL_API_KEY = $(TFL_API_KEY)
+MAPS_API_KEY = $(MAPS_API_KEY)
